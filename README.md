@@ -1,4 +1,4 @@
-# CS2 Demo Parser (GO)
+# CS2 Demo Parser (Golang)
 Modified version of `print_events.go` from the [demoinfocs-golang library](https://github.com/markus-wa/demoinfocs-golang). Modifications include printing only certain kills, pulling headshot, wallbang, and time information from each kill, as well as handling of the team swap initiated at each CS2 match's halftime. It then outputs all resulting data into two CSV files, `data.csv` and `data2.csv` with all information split between kills taking place before and after halftime. 
 
 ## Retrieving CS2 Demo File
